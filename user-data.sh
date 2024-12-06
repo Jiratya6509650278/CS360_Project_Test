@@ -14,6 +14,7 @@ newgrp docker
 
 #"Starting Docker pull and run..."
 #yeahhhhhhhhhh
+#auy test eiei
 sudo docker pull korakrit/cs360_frontend_image_test:latest
 sudo docker run -d -p 3000:3000 --name cs360_frontend_container korakrit/cs360_frontend_image_test:latest
 sudo docker exec cs360_frontend_container sh -c "
